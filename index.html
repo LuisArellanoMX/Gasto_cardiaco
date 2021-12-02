@@ -5,65 +5,91 @@
     <link rel="stylesheet" href="assets/style/style_main.css">
     <title>Gasto Cardiaco</title>
 </head>
+
 <body>
     <header>
-        <img src="assets/img/logo_ipn.jpeg" alt="" width="100" height="100" id="logo_ipn">
+        <img src="assets/img/logo_ipn.jpeg" alt="" id="logo_ipn">
         <img src="assets/img/title01.png" alt="">
+        <img src="assets/img/upiig_logo.jpg" alt="" id="logo_upiig">
         <hr id="linea_titulo">
     </header>
-    
+
     <div id="contenedor">
-        <div id="m1" class="metodos">
-            <h1>Metodo 1</h1>
+
+        <div id="fick" class="metodos">
+            <h1>Fick</h1>
+
+            <img src="assets/img/fick/fick_formula.png" alt="" class="img_formula"><br>
             <div class="entrada_datos">
-                <img src="" alt="ecuacion">
-                <input type="text"><br>
-                
-                <img src="" alt="ecuacion">
-                <input type="text"><br>
-                
-                <img src="" alt="ecuacion">
-                <input type="text"><br>
-                
-                <img src="" alt="ecuacion">
-                <input type="text">
+                <span>dm/dt</span>
+                <input type="number"><br>
+
+                <span>C<sub>a</sub>O<sub>2</sub></span>
+                <input type="number"><br>
+
+                <span>C<sub>v</sub>O<sub>2</sub></span>
+                <input type="number"><br>
             </div>
-        </div>
-        <div id="m2" class="metodos">
-            <h1>Metodo 2</h1>
             
-            <div class="entrada_datos">
-                <img src="" alt="ecuacion">
-                <input type="text"><br>
-                
-                <img src="" alt="ecuacion">
-                <input type="text"><br>
-                
-                <img src="" alt="ecuacion">
-                <input type="text"><br>
-                
-                <img src="" alt="ecuacion">
-                <input type="text"><br>
-                
-            </div>
+            <div id="resultado_nico" class="resultado">Resultado</div>
         </div>
-        <div id="m3" class="metodos">
-            <h1>Metodo 3</h1>
-            
+
+        <div id="termo_c" class="metodos">
+            <h1>Termodilucion cardiaca</h1>
+            <img src="assets/img/termo_c/termo_c_formula.png" alt="" class="img_formula"><br>
             <div class="entrada_datos">
-                <img src="" alt="ecuacion">
-                <input type="text"><br>
-                
-                <img src="" alt="ecuacion">
-                <input type="text"><br>
-                
-                <img src="" alt="ecuacion">
-                <input type="text"><br>
-                
-                <img src="" alt="ecuacion">
-                <input type="text">
+                <span>t<sub>0</sub></span>
+                <input type="number"><br>
             </div>
+            
+            <div id="resultado_termo_c" class="resultado">Resultado</div>
+        </div>
+
+        <div id="termo_p" class="metodos">
+            <h1>Termodilucion pulmonar</h1>
+            <img src="assets/img/termo_p/termo_p_formula.png" alt="" class="img_formula"><br>
+            <div class="entrada_datos">
+                <span>V<sub>i</sub></span>
+                <input type="number"><br>
+
+                <span>T<sub>b</sub></span>
+                <input type="number"><br>
+
+                <span>T<sub>i</sub></span>
+                <input type="number"><br>
+
+                <span>ΔT<sub>b</sub></span>
+                <input type="number"><br><br>
+            </div>
+            
+            <div id="resultado_termo_c" class="resultado">Resultado</div>
+        </div>
+
+        <div id="nico" class="metodos">
+            <h1>Nico</h1>
+            <img src="assets/img/nico/nico_formula.png" alt="" class="img_formula"><br>
+            <div class="entrada_datos">
+                <span>VCO<sub>2</sub></span>
+                <input type="number"><br>
+                <span>PETCO<sub>2</sub></span>
+                <input type="number"><br>
+                <span>HB</span>
+                <input type="number"><br>
+            </div>
+            <div id="resultado_nico" class="resultado">Resultado</div>
         </div>
     </div>
-</body>
-</html>
+    
+    <div id="boton_calcular">Calcular</div>
+    <footer>
+        <h2>Ingeniería Biotecnológica</h2>
+        <h3>Aplicaciones Matematicas 3BV1</h3>
+        <ul id="participantes">
+            <li>González Sánchez Sofía</li>
+            <li>Guerra Rincón Dania Karen</li>
+            <li>Espinoza Chávez Aaron Daniel</li>
+            <li>Ramírez Martínez Luz Alejandra</li>
+        </ul>
+        <img src="assets/img/logo_ipn.jpeg" alt="">
+    </footer>
+</body></html>

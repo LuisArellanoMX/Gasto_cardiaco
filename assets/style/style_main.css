@@ -1,15 +1,25 @@
 body{
     background-image: url("../img/fondo1.png");
+    padding: 0px;
+    margin: 0px;
 }
 
 header{
-
+    margin-top: 10px;
+    text-align: center;
 }
 
 #logo_ipn{
     border-radius: 30px;
     margin-left: 50px;
     margin-right: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+#logo_upiig{
+    width: 120px;
+    border-radius: 30px;
 }
 
 #linea_titulo{
@@ -18,14 +28,19 @@ header{
     height: 30px;
 }
 
+#contenedor h1{
+    font-family: cursive;
+    color: currentColor;
+}
+
 #contenedor .metodos {
     /*rgb(158,158,158)*/
     background-color: rgba(158,158,158,0.5);
-    width: 30%;
+    width: 20%;
     height: 400px;
     display: inline-table;
     position: relative;
-    margin-left: 2.25%;
+    margin-left: 4%;
     text-align: center;
     border-radius: 10px;
 }
@@ -36,12 +51,85 @@ header{
     float: right;
 }
 
-#contenedor .metodos .entrada_datos img{
-    margin-right: 30px;
+#contenedor .metodos .entrada_datos span{
+    margin-right: 10px;
     margin-top: 30px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#contenedor .metodos .img_formula{
+    width: 80%;
+    border-radius: 10px;
 }
 
 #contenedor .metodos .entrada_datos input{
     margin-right: 30px;
     margin-top: 30px;
+    width: 60px;
+    height: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.metodos .resultado{
+    background-color: aliceblue;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+#boton_calcular{
+    background-color: #80004a;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 15px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+    border-radius: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px rgba(0,0,0,0.2);
+}
+
+#boton_calcular:active{
+    box-shadow: 10px 10px rgba(0,0,0,0.2) inset;
+    transition: 0.1s;
+}
+
+footer{
+    background-color: #80004a;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    padding: 10px
+}
+
+footer h2, footer h3{
+    font-family: sans-serif;
+}
+
+#participantes{
+    list-style-type: none;
+    font-family: sans-serif;
+    margin-left: -40px;
+}
+
+#participantes li{
+    margin-bottom: 5px;
+}
+
+footer img{
+    width: 100px;
 }
