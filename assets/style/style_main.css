@@ -16,5 +16,32 @@ header{
     margin: 20px;
     background-color: #80004a;
     height: 30px;
-    
+}
+
+#contenedor .metodos {
+    /*rgb(158,158,158)*/
+    background-color: rgba(158,158,158,0.5);
+    width: 30%;
+    height: 400px;
+    display: inline-table;
+    position: relative;
+    margin-left: 2.25%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#contenedor .metodos .entrada_datos{
+    display: contents;
+    position: absolute;
+    float: right;
+}
+
+#contenedor .metodos .entrada_datos img{
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+#contenedor .metodos .entrada_datos input{
+    margin-right: 30px;
+    margin-top: 30px;
 }
