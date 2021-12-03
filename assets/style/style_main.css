@@ -136,3 +136,11 @@ footer h2, footer h3{
 footer img{
     width: 100px;
 }
+
+#animaciones .animacion{
+    width: 30%;
+    margin-left: 2.2%;
+    margin-top: 2em;
+    vertical-align: middle;
+    display: none;
+}
