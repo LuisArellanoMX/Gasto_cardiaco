@@ -22,13 +22,13 @@
             <img src="assets/img/fick/fick_formula.png" alt="" class="img_formula"><br>
             <div class="entrada_datos">
                 <span>dm/dt</span>
-                <input type="number"><br>
+                <input type="number" id="dm_dt"><br>
 
                 <span>C<sub>a</sub>O<sub>2</sub></span>
-                <input type="number"><br>
+                <input type="number" id="CAO2"><br>
 
                 <span>C<sub>v</sub>O<sub>2</sub></span>
-                <input type="number"><br>
+                <input type="number" id="CVO2"><br>
             </div>
             
             <div id="resultado_nico" class="resultado">Resultado</div>
@@ -39,7 +39,7 @@
             <img src="assets/img/termo_c/termo_c_formula.png" alt="" class="img_formula"><br>
             <div class="entrada_datos">
                 <span>t<sub>0</sub></span>
-                <input type="number"><br>
+                <input type="number" id="t0"><br>
             </div>
             
             <div id="resultado_termo_c" class="resultado">Resultado</div>
@@ -50,19 +50,19 @@
             <img src="assets/img/termo_p/termo_p_formula.png" alt="" class="img_formula"><br>
             <div class="entrada_datos">
                 <span>V<sub>i</sub></span>
-                <input type="number"><br>
+                <input type="number" id="Vi"><br>
 
                 <span>T<sub>b</sub></span>
-                <input type="number"><br>
+                <input type="number" id="Tb"><br>
 
                 <span>T<sub>i</sub></span>
-                <input type="number"><br>
+                <input type="number" id="Ti"><br>
 
                 <span>ΔT<sub>b</sub></span>
-                <input type="number"><br><br>
+                <input type="number" id="deltaT"><br><br>
             </div>
             
-            <div id="resultado_termo_c" class="resultado">Resultado</div>
+            <div id="resultado_termo_p" class="resultado">Resultado</div>
         </div>
 
         <div id="nico" class="metodos">
@@ -92,4 +92,8 @@
         </ul>
         <img src="assets/img/logo_ipn.jpeg" alt="">
     </footer>
+    <script src="assets/scripts/main.js"></script>
+    <script src="assets/scripts/fick.js"></script>
+    <script src="assets/scripts/termo_c.js"></script>
+    <script src="assets/scripts/termo_p.js"></script>
 </body></html>
