@@ -1,6 +1,7 @@
-let r_fick = document.getElementById("resultado_nico")
+let r_fick = document.getElementById("resultado_fick")
 let r_termo_c = document.getElementById("resultado_termo_c")
 let r_termo_p = document.getElementById("resultado_termo_p")
+let r_nico = document.getElementById("resultado_nico")
 
 
 let boton = document.getElementById("boton_calcular")
@@ -13,6 +14,10 @@ function run(){
         r_fick.innerHTML = calcularFick();
         r_termo_c.innerHTML = calcularTermoC()
         r_termo_p.innerHTML = calcularTermoP()
+        r_nico.innerHTML = calcularNico()
+        
+        r_nico.style.fontWeight = "bold"
+        r_nico.style.color = "crimson"
     }, 15000)
     
     mostrarAnimaciones()
@@ -22,6 +27,8 @@ function cargarResultados(){
     r_fick.innerHTML = "Cargando..."
     r_termo_c.innerHTML = "Cargando..."
     r_termo_p.innerHTML = "Cargando..."
+    r_nico.style.color = "black"
+    r_nico.innerHTML = "Cargando..."
 }
 
 
